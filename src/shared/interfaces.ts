@@ -4,7 +4,6 @@ export interface INewFlashcard {
 	back: string;
 }
 
-
 export const blankNewFlashcard: INewFlashcard = {
 	category: 'linux',
 	front: '',
@@ -47,12 +46,12 @@ export const convertFlashcardToFrontendFlaschard = (flashcard: IFlashcard): IFro
 }
 
 export const convertFrontendFlashcardToFlaschard = (frontendFlashcard: IFrontendFlashcard): IFlashcard => {
-    return {
-        suuid: frontendFlashcard.suuid,
-        category: frontendFlashcard.category,
-        front: frontendFlashcard.front,
-        back: frontendFlashcard.back
-    }
+	return {
+		suuid: frontendFlashcard.suuid,
+		category: frontendFlashcard.category,
+		front: frontendFlashcard.front,
+		back: frontendFlashcard.back
+	}
 }
 
 export type ISiteEnvironment = "development" | "production";
@@ -62,4 +61,9 @@ export const convertFlashcardToTestingFlaschard = (flashcard: IFlashcard): ITest
 		...flashcard,
 		backIsShowing: false
 	}
+}
+
+export type IApiStatus = {
+	status: "live" | "maintenanceMode",
+	whenLiveAgainDateTime: string
 }
