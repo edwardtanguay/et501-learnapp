@@ -27,3 +27,9 @@
 {"level":"verbose","message":"This is a very long text that has a whole bunch of information. This would be for example a dump of some information that might help in debugging, etc.","timestamp":"2024-01-14T21:04:54.915Z"}
 {"level":"debug","message":"test = 0","timestamp":"2024-01-14T21:04:54.915Z"}
 {"contentLength":"undefined","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.863","status":"304","timestamp":"2024-01-14T21:04:54.916Z","url":"/"}
+{"level":"error","message":"This is some information showing an error.","timestamp":"2024-01-14T21:17:30.430Z"}
+{"level":"warn","message":"Here we are showing a warning.","timestamp":"2024-01-14T21:17:30.432Z"}
+{"level":"info","message":"This is just some info.","timestamp":"2024-01-14T21:17:30.432Z"}
+{"level":"verbose","message":"This is a very long text that has a whole bunch of information. This would be for example a dump of some information that might help in debugging, etc.","timestamp":"2024-01-14T21:17:30.433Z"}
+{"level":"debug","message":"test = 0","timestamp":"2024-01-14T21:17:30.433Z"}
+{"contentLength":"undefined","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"4.667","status":"304","timestamp":"2024-01-14T21:17:30.436Z","url":"/"}
