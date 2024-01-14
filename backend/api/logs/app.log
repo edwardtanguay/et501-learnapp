@@ -33,3 +33,12 @@
 {"level":"verbose","message":"This is a very long text that has a whole bunch of information. This would be for example a dump of some information that might help in debugging, etc.","timestamp":"2024-01-14T21:17:30.433Z"}
 {"level":"debug","message":"test = 0","timestamp":"2024-01-14T21:17:30.433Z"}
 {"contentLength":"undefined","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"4.667","status":"304","timestamp":"2024-01-14T21:17:30.436Z","url":"/"}
+{"level":"error","message":"This is some information showing an error.","timestamp":"2024-01-14T21:39:05.975Z"}
+{"level":"warn","message":"Here we are showing a warning.","timestamp":"2024-01-14T21:39:05.978Z"}
+{"level":"info","message":"This is just some info.","timestamp":"2024-01-14T21:39:05.978Z"}
+{"level":"verbose","message":"This is a very long text that has a whole bunch of information. This would be for example a dump of some information that might help in debugging, etc.","timestamp":"2024-01-14T21:39:05.978Z"}
+{"level":"debug","message":"test = 0","timestamp":"2024-01-14T21:39:05.978Z"}
+{"contentLength":"undefined","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"5.000","status":"304","timestamp":"2024-01-14T21:39:05.982Z","url":"/"}
+{"contentLength":"665","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"0.560","status":"200","timestamp":"2024-01-14T21:39:10.471Z","url":"/api/flashcards"}{"contentLength":"11768","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"47.107","status":"200","timestamp":"2024-01-14T21:41:26.600Z","url":"/api/flashcards/info/logs"}
+{"contentLength":"150","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::1","responseTime":"0.904","status":"404","timestamp":"2024-01-14T21:42:22.836Z","url":"/favicon.ico"}
+{"contentLength":"665","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"2.056","status":"200","timestamp":"2024-01-14T21:44:29.359Z","url":"/api/flashcards"}

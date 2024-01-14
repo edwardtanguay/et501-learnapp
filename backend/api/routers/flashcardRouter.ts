@@ -3,8 +3,11 @@ import * as flashcardHandlers from '../handlers/flashcardHandlers';
 import { IFlashcard, INewFlashcard, IPatchFlashcard } from '../../../src/shared/interfaces';
 import { flashcardGetCleanAndValidate } from '../middleware/flashcardGetCleanAndValidate';
 import { flashcardPostCleanAndValidate } from '../middleware/flashcardPostCleanAndValidate';
+import { flashcardInfoRouter } from './flashcardInfoRouter';
 
 export const flashcardRouter = Router();
+
+flashcardRouter.use('/info', flashcardInfoRouter);
 
 flashcardRouter.get('/', (_req, res) => {
 	const flashcards = flashcardHandlers.getAllFlashcards();
