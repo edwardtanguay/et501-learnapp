@@ -15,3 +15,4 @@
 {"contentLength":"4272","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"1.464","status":"200","timestamp":"2024-01-14T21:50:54.164Z","url":"/api/flashcards/info/logs"}
 {"contentLength":"4563","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"6.231","status":"200","timestamp":"2024-01-14T21:50:54.885Z","url":"/api/flashcards/info/logs"}
 {"contentLength":"4854","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"1.299","status":"200","timestamp":"2024-01-14T21:50:55.715Z","url":"/api/flashcards/info/logs"}
+{"contentLength":"5145","level":"http","message":"incoming-request","method":"GET","remoteAddr":"::ffff:127.0.0.1","responseTime":"3.291","status":"200","timestamp":"2024-01-14T21:51:05.184Z","url":"/api/flashcards/info/logs"}
