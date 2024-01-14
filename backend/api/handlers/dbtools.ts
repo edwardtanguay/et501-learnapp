@@ -6,7 +6,7 @@ import { IDatabase } from '../../../src/shared/interfaces';
 export const getDb = async () => {
 	try {
 		const projectBasePath = process.cwd();
-		const dbPathAndFileName = join(projectBasePath, 'nnnbackend/data/db.json');
+		const dbPathAndFileName = join(projectBasePath, 'backend/data/db.json');
 		const adapter = new JSONFile<IDatabase>(dbPathAndFileName);
 		const db: Low<IDatabase> = new Low<IDatabase>(adapter, {} as IDatabase);
 		await db.read();
