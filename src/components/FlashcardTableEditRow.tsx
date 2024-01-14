@@ -18,7 +18,6 @@ export const FlashcardTableEditRow = ({ frontendFlashcard }: IProps) => {
 		frontendFlashcard: IFrontendFlashcard
 	) => {
 		const value = e.target.value;
-		console.log(value);
 		switch (field) {
 			case "category":
 				frontendFlashcard.category = value;
